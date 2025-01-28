@@ -1,0 +1,1602 @@
+                
+                 body{
+                margin: auto;
+
+                  color: white;
+                 }
+                
+
+                 .header{
+                  background-color: black;
+                  width: 100%;
+                  height: 100px;
+                  display:flex;
+                  flex-direction: row;
+                  justify-content: space-evenly;
+                 }
+
+                 .logo{
+                    width: 30%;
+                    height:100px;
+                    background-color: transparent;
+                 }
+                .img1 {
+                   width: 45%;
+                   height: 80px;
+                   margin-top: 10px;
+                   margin-left: 80px;
+                }
+
+                 .navbar{
+                     background-color:transparent;
+                     width: 40%;
+                     height: 100px;
+                     color: white;
+
+                 }
+                 .navbar ul{
+                    margin-top: 50px;
+                    margin-left: 90px;
+                    cursor: pointer;
+                 }
+
+                 .navbar ul li{
+                    display: inline;
+                    padding-left:20px;
+                    font-size: 20px;
+                    font-family: Poppins, sans-serif;
+
+                 }
+
+                 .button{
+                    background-color:transparent;
+                    width: 30%;
+                    height: 100px;
+                    display: flex;
+
+
+                }
+
+                .button1{
+                      border: 1px solid;
+                      border-radius: 30px;
+                      width: 160px;
+                      height: 47px;
+                      font-size: 15px;
+                      margin-top: 28px;
+                      margin-left:20px ;
+                      background-color: transparent;
+                      color: white;
+                      cursor: pointer;
+                }
+                .btn2{
+                    background-color: red;
+                    height: 47px;
+                    width: 160px;
+                    border-radius: 50px;
+                    margin-top:28px;
+                    margin-left: 10px;
+                    text-align: center;
+                    float: left;
+                    font-size: 20px;
+                    cursor: pointer;
+                    
+                }
+               .text{
+                  background-color: transparent ;
+                  margin-top: 14px;
+               }
+               
+               .divtext{
+                  background-color: black ;
+                  width: 100%;
+                  height: 500px;
+                  display: flex;
+                  flex-direction: column;
+               
+                
+               }
+
+               .sdiv1{
+                    background-color: black;
+                     width: 100%;
+                     height: 250px;
+                    
+               }
+               .text1{
+                  background-color: transparent;
+                  width: 60%;
+                  height: 200px;
+                  margin-left: 250px;
+                  margin-top: 50px;
+                  padding-left: 10px;
+                  
+
+               }
+               .sdiv3{
+                  background-color:transparent;
+                  width: 90%;
+                  height: 20px;
+                  margin-left: 25px;
+                  text-align: center;
+                  font-family: 'Apercu';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+
+               }
+               @font-face {
+                font-family: 'futurak';
+                src: url(futurak.ttf);
+               }
+               .fu{
+                font-family: 'futurak';
+               }
+               .logosalt{
+                  font-family:'futurak';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 52px;
+          line-height: 62px;
+          color: #FFFFFF;
+                 }
+                       
+                 .h1{
+                  font-family: 'Apercu';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 50px;
+          text-align: center;
+          color: #FFFFFF;
+          margin-bottom: 8px;
+                 }
+
+
+               .sdiv2{
+                  background-color: black;
+                   width: 100%;
+                   height: 300px;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-evenly;
+                 
+             }
+
+             .mono1{
+               background-color: transparent;
+               width: 470px;
+               height: 300px;
+             }
+             .smono1{
+               background-color: white;
+               width: 230px;
+               height: 130px;
+               margin-top: 20px;
+               margin-left: 235px;
+               border-radius: 5px;
+            }
+            .monopic{
+                width: 180px;
+                height: 100px;
+                margin-left:25px;
+               margin-top: 10px;
+            }
+         .smono2{
+            background-color: transparent;
+            width: 130px;
+            height: 35px;
+            margin-top: 15px;
+            margin-left: 270px;
+            border-radius: 50px;
+            border: 1px solid;
+            font-style: normal;
+            font-size: 20px;
+            padding-left: 40px;
+            padding-top: 13px;
+
+         }
+
+         @media screen {
+          
+         }
+
+             .mono2{
+               background-color: transparent;
+               width: 230px;
+               height: 300px;
+             }
+             .imono1{
+               background-color: white;
+               width: 230px;
+               height: 130px;
+               margin-top: 20px;
+               border-radius: 5px;
+             }
+             .imono2{
+               background-color: transparent;
+               width: 130px;
+               height: 35px;
+               margin-top: 15px;
+               margin-left: 35px;
+               border-radius: 50px;
+               border: 1px solid;
+               font-style: normal;
+               font-size: 20px;
+               padding-left: 30px;
+               padding-top: 13px;
+
+             }
+             .monopic2{
+               width: 180px;
+               height: 100px;
+               margin-left:25px;
+              margin-top: 10px;
+
+             }
+
+             .mono3{
+               background-color: transparent;
+               width: 450px;
+               height: 300px;
+             }
+             .omono1{
+               background-color: white;
+               width: 230px;
+               height: 130px;
+               margin-top: 20px;
+               border-radius: 5px;
+               margin-left:5px;
+             }
+             .omonopic{
+               width: 180px;
+               height: 100px;
+               margin-left:25px;
+              margin-top: 20px;
+             }
+             .omono2{
+               background-color: transparent;
+               width: 150px;
+               height: 35px;
+               margin-top: 15px;
+               margin-left: 35px;
+               border-radius: 50px;
+               border: 1px solid;
+               font-style: normal;
+               font-size: 20px;
+               padding-left: 20px;
+               padding-top: 13px;
+             }
+
+             /* location Div */
+
+             .locationdiv{
+               background-color: rgb(12, 12, 12);
+               width: 100%;
+               height: 700px;
+               
+             }
+             
+             .textloc1{
+               background-color:transparent;
+               width: 60%;
+               height: 200px;
+               margin-left: 250px;
+               margin-top: 50px;
+               padding-left: 10px;
+               padding-top: 100px;
+               
+
+            }
+            .sdiv3{
+               background-color:transparent;
+               width: 90%;
+               height: 20px;
+               margin-left: 25px;
+               text-align: center;
+               font-family: 'Apercu';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+
+            }
+           
+            .logosalt{
+               font-family: Rockwell Extra Bold;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 52px;
+       line-height: 62px;
+       color: #FFFFFF;
+              }
+                    
+              .h1{
+               font-family: 'Apercu';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 40px;
+       line-height: 50px;
+       text-align: center;
+       color: #FFFFFF;
+       margin-bottom: 8px;
+              }
+
+              .divloc2{
+               background-color:transparent;
+               width:100%;
+               height: 400px;
+               display: flex;
+               flex-direction: row;
+               justify-content: space-evenly;
+              }
+
+              .sloc1{
+               background-color:transparent;
+               width: 500px;
+               height: 350px;
+               margin-left: 20px ;
+              }
+
+
+              .sloc2{
+               background-color: transparent;
+               width: 500px;
+               height: 350px;
+               margin-top: 20px;
+
+              }
+              .locpic{
+               width: 500px;
+               height: 350px;
+              }
+              .isl1{
+               color: red;
+               
+              }
+
+              .loctext{
+               
+                font-family: 'futurak';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 62px;
+          color: #FFFFFF;
+              }
+              .res{
+               font-size: 30px;
+               font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               padding-left: 5px;
+              }
+              .directbutton{
+               background-color: transparent;
+               width: 174px;
+               height: 35px;
+               border: 1px solid;
+               border-radius: 50px;
+               margin-left: 20px;
+               margin-top: 40px;
+               font-size: 20px;
+               font-weight: 500;
+               padding-left: 15px;
+               padding-top: 15px;
+              }
+              
+               .arrow{
+                  background-color: #fff;
+                  color: #dc3545;
+                  width: 27px;
+                  height: 27px;
+                  padding: 5px 8px;
+                  border-radius: 30px;
+                  margin-left: 10px;       
+              }  
+
+
+                            /* location div 2 */
+
+              
+             .locationdiv2{
+               background-color:black;
+               width: 100%;
+               height: 400px;
+               
+             }
+
+             .divloc21{
+               background-color:transparent;
+               width:100%;
+               height: 400px;
+               display: flex;
+               flex-direction: row;
+               justify-content: space-evenly;
+              }
+
+             .sloc21{
+               background-color:transparent;
+               width: 500px;
+               height: 350px;
+               margin-left: 20px ;
+             }
+             .locpic2{
+               width: 500px;
+               height: 350px;
+             }
+
+             .sloc22{
+               background-color: transparent;
+               width: 500px;
+               height: 350px;
+               margin-top: 20px;
+             }
+
+
+
+            
+            .fai1{
+             color: red;
+             
+            }
+             .loctext2{
+               
+              font-family: 'futurak';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 40px;
+       line-height: 62px;
+       color: #FFFFFF;
+           }
+           .res2{
+            font-size: 30px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-left: 5px;
+           }
+           .directbutton2{
+            background-color: transparent;
+            width: 174px;
+            height: 35px;
+            border: 1px solid;
+            border-radius: 50px;
+            margin-left: 20px;
+            margin-top: 40px;
+            font-size: 20px;
+            font-weight: 500;
+            padding-left: 15px;
+            padding-top: 15px;
+           }
+           
+            .arrow2{
+               background-color: #fff;
+               color: #dc3545;
+               width: 27px;
+               height: 27px;
+               padding: 5px 8px;
+               border-radius: 30px;
+               margin-left: 10px;       
+           }  
+
+           
+                                   /* LOCATION DIV 3 */
+              
+                 .locationdiv3{
+                   background-color: rgb(12, 12, 12);
+                   width: 100%;
+                   height: 400px;
+                     
+                  }
+           
+
+
+                  .divloc31{
+                     background-color:transparent;
+                     width:100%;
+                     height: 400px;
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-evenly;
+                    }
+      
+                    .sloc31{
+                     background-color:transparent;
+                     width: 500px;
+                     height: 350px;
+                     margin-left: 20px ;
+                    }
+      
+      
+                    .sloc31{
+                     background-color: transparent;
+                     width: 500px;
+                     height: 350px;
+                     margin-top: 20px;
+      
+                    }
+                    .locpic3{
+                     width: 500px;
+                     height: 350px;
+                    }
+                    .bha1{
+                     color: red;
+                     
+                    }
+      
+                    .loctext3{
+                     
+                        font-family: 'futurak';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 62px;
+                color: #FFFFFF;
+                    }
+                    .res3{
+                     font-size: 30px;
+                     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                     padding-left: 5px;
+                    }
+                    .directbutton3{
+                     background-color: transparent;
+                     width: 174px;
+                     height: 35px;
+                     border: 1px solid;
+                     border-radius: 50px;
+                     margin-left: 20px;
+                     margin-top: 40px;
+                     font-size: 20px;
+                     font-weight: 500;
+                     padding-left: 15px;
+                     padding-top: 15px;
+                    }
+                    
+                     .arrow3{
+                        background-color: #fff;
+                        color: #dc3545;
+                        width: 27px;
+                        height: 27px;
+                        padding: 5px 8px;
+                        border-radius: 30px;
+                        margin-left: 10px;       
+                    }  
+
+            
+                                    /* Resturant Location */
+                          
+
+
+                  .rloc1{
+                    background-color: black;
+                    width: 100%;
+                    height: 670px;
+                  }
+
+                  
+                  .srloc1{
+                    background-color: transparent;
+                    width: 100%;
+                    height: 150px;
+                    margin-top:50px ;
+                  }
+                  .rsalt{
+                    font-family:'futurak';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 65px;
+                    line-height: 62px;
+                    color: #FFFFFF;
+                   padding-left:450px ;
+                   
+                  }
+                  .rsalt2{
+                    font-size: 50px;
+                    padding-left: 420px;
+                   
+                  }
+                  .srloc2{
+                    background-color: transparent;
+                    width: 100%;
+                    height: 500px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                  }
+
+
+                                            /* short 1 */
+                  .short1{
+                   background-color: transparent;
+                   width: 370px;
+                   height: 500px;
+                  }
+                  .location1{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 250px;
+                  }
+                  .slocation1{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 150px;
+                    margin-top: 20px;
+                    text-align: center;
+                  }
+                  .mall1{
+                    color: red;
+                    font-size:13px;
+                    line-height: 2;
+                  }
+                  .saltmall{
+                    font-family: 'futurak';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                   color: #FFFFFF;
+                  }
+                  .slocation2{
+                    background-color: transparent;
+                    width: 174px;
+                    height: 35px;
+                    border: 1px solid;
+                    border-radius: 50px;
+                    margin-top: 20px;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-left: 15px;
+                    padding-top: 15px;
+                  }
+                  .arrowloc{
+                    background-color: #fff;
+                    color: #dc3545;
+                    width: 27px;
+                    height: 27px;
+                    padding: 5px 8px;
+                    border-radius: 30px;
+                    margin-left: 10px;    
+                  }
+
+                                         /* short 2 */
+
+                  .short2{
+                    background-color: transparent;
+                    width: 370px;
+                    height: 500px;
+                  }
+
+                   .resturantloc2{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 250px;
+                   }
+
+                   .slocation21{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 150px;
+                    margin-top: 20px;
+                    text-align: center;
+                  }
+                  .mall2{
+                    color: red;
+                    font-size:13px;
+                    line-height: 2;
+                  }
+                  .saltmall2{
+                    font-family: 'futurak';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                   color: #FFFFFF;
+                  }
+
+                  .slocation31{
+                    background-color: transparent;
+                    width: 174px;
+                    height: 35px;
+                    border: 1px solid;
+                    border-radius: 50px;
+                    margin-top: 20px;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-left: 15px;
+                    padding-top: 15px;
+                  }
+                  .arrowloc2{
+                    background-color: #fff;
+                    color: #dc3545;
+                    width: 27px;
+                    height: 27px;
+                    padding: 5px 8px;
+                    border-radius: 30px;
+                    margin-left: 10px;    
+                  }
+
+
+
+
+                                    /* Short 3 */
+
+                  .short3{
+                    background-color: transparent;
+                    width: 370px;
+                    height: 500px;
+                  }
+
+                  .resturantloc3{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 250px;
+                   }
+
+                   .slocation22{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 150px;
+                    margin-top: 20px;
+                    text-align: center;
+                  }
+                  .mall3{
+                    color: red;
+                    font-size:13px;
+                    line-height: 2;
+                  }
+                  .saltmall3{
+                    font-family: 'futurak';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                   color: #FFFFFF;
+                  }
+
+                  .slocation32{
+                    background-color: transparent;
+                    width: 174px;
+                    height: 35px;
+                    border: 1px solid;
+                    border-radius: 50px;
+                    margin-top: 20px;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-left: 15px;
+                    padding-top: 15px;
+                  }
+                  .arrowloc3{
+                    background-color: #fff;
+                    color: #dc3545;
+                    width: 27px;
+                    height: 27px;
+                    padding: 5px 8px;
+                    border-radius: 30px;
+                    margin-left: 10px;    
+                  }
+
+
+
+                  /* Resturant LOcation 2  */
+
+
+                  .resturantlocation2{
+                    background-color: black;
+                    width: 100%;
+                    height: 520px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                  }
+                   
+                                  /*short 21 */
+                  .reslocation1{
+                    background-color: transparent;
+                    width: 370px;
+                    height: 500px;
+                  }
+
+
+                  .jlocation21{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 250px;
+                  }
+                  .jlocation22{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 150px;
+                    margin-top: 20px;
+                    text-align: center;
+                  }
+                  .jmall2{
+                    color: red;
+                    font-size:13px;
+                    line-height: 2;
+                  }
+                  .jaltmall2{
+                    font-family: 'futurak';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                   color: #FFFFFF;
+                  }
+                  .jlocation32{
+                    background-color: transparent;
+                    width: 174px;
+                    height: 35px;
+                    border: 1px solid;
+                    border-radius: 50px;
+                    margin-top: 20px;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-left: 15px;
+                    padding-top: 15px;
+                  }
+                  .jarrowloc2{
+                    background-color: #fff;
+                    color: #dc3545;
+                    width: 27px;
+                    height: 27px;
+                    padding: 5px 8px;
+                    border-radius: 30px;
+                    margin-left: 10px;    
+                  }
+
+
+                                       /* short 22 */
+
+                  .reslocation2{
+                    background-color: transparent;
+                    width: 370px;
+                    height: 500px;
+                  }
+                  .jlocation1{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 250px;
+                  }
+                  .jlocation2{
+                    background-color:transparent;
+                    width: 100%;
+                    height: 150px;
+                    margin-top: 20px;
+                    text-align: center;
+                  }
+                  .jmall1{
+                    color: red;
+                    font-size:13px;
+                    line-height: 2;
+                  }
+                  .jaltmall1{
+                    font-family: 'futurak';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                   color: #FFFFFF;
+                  }
+                  .jlocation3{
+                    background-color: transparent;
+                    width: 174px;
+                    height: 35px;
+                    border: 1px solid;
+                    border-radius: 50px;
+                    margin-top: 20px;
+                    margin-left: 100px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-left: 15px;
+                    padding-top: 15px;
+                  }
+                  .jarrowloc{
+                    background-color: #fff;
+                    color: #dc3545;
+                    width: 27px;
+                    height: 27px;
+                    padding: 5px 8px;
+                    border-radius: 30px;
+                    margin-left: 10px;    
+                  }
+
+
+
+ 
+
+
+                                      /* short 23 */
+                  .reslocation3{
+                    background-color: transparent;
+                    width: 370px;
+                    height: 500px;
+                  }
+
+                
+                .jlocation31{
+                  background-color:transparent;
+                  width: 100%;
+                  height: 250px;
+                }
+                .slocation22{
+                  background-color:transparent;
+                  width: 100%;
+                  height: 150px;
+                  margin-top: 20px;
+                  text-align: center;
+                }
+                .jmall3{
+                  color: red;
+                  font-size:13px;
+                  line-height: 2;
+                }
+                .jaltmall3{
+                  font-family: 'futurak';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 24px;
+                  line-height: 29px;
+                  text-align: center;
+                 color: #FFFFFF;
+                }
+                .jlocation33{
+                  background-color: transparent;
+                  width: 174px;
+                  height: 35px;
+                  border: 1px solid;
+                  border-radius: 50px;
+                  margin-top: 20px;
+                  margin-left: 100px;
+                  font-size: 20px;
+                  font-weight: 500;
+                  padding-left: 15px;
+                  padding-top: 15px;
+                }
+                .jarrowloc3{
+                  background-color: #fff;
+                  color: #dc3545;
+                  width: 27px;
+                  height: 27px;
+                  padding: 5px 8px;
+                  border-radius: 30px;
+                  margin-left: 10px;    
+                }
+                
+
+
+                /* Resturantr location 3 */
+
+
+
+        .bahria{
+          background-color: black;
+          width: 100%;
+          height: 500px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+                             /* short 31 */
+        .short31{
+          background-color: transparent;
+          width: 370px;
+          height: 500px;
+        }
+        .bpic1{
+          background-color: transparent;
+          width: 370px;
+          height: 250px;
+        }
+        .bpicture{
+          width: 370px;
+          height: 250px;
+        }
+        .blocation1{
+          background-color:transparent;
+          width: 100%;
+          height: 150px;
+          margin-top: 20px;
+          text-align: center;
+        }
+        .bmall1{
+          color: red;
+          font-size:13px;
+          line-height: 2;
+        }
+        .baltmall1{
+          font-family: 'futurak';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+         color: #FFFFFF;
+        }
+
+        .blocation2{
+          background-color: transparent;
+          width: 174px;
+          height: 35px;
+          border: 1px solid;
+          border-radius: 50px;
+          margin-top: 20px;
+          margin-left: 90px;
+          font-size: 20px;
+          font-weight: 500;
+          padding-left: 15px;
+          padding-top: 15px;
+        }
+        .barrowloc1{
+          background-color: #fff;
+          color: #dc3545;
+          width: 27px;
+          height: 27px;
+          padding: 5px 8px;
+          border-radius: 30px;
+          margin-left: 10px;    
+        }
+        
+
+        
+                                 /* short 32 */
+        .short32{
+          background-color:transparent;
+          width: 370px;
+          height: 500px;
+        }
+
+                                /* short31 */
+        .short33{
+          background-color: transparent;
+          width: 370px;
+          height: 500px;
+        }
+
+
+
+
+
+                       /* LOCATION CENTER DIV */
+        
+
+                       .centerdiv{
+                        background-color: black;
+                        width:65%;
+                        height: 550px;
+                        margin-top: 20px;
+                        margin-left: 220px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly; 
+                       }
+
+
+                       .cshort1{
+                        background-color:transparent;
+                        width: 370px;
+                        height: 500px;
+                       }
+
+                       .centerpic1{
+                        background-color: transparent;
+                        width: 370px;
+                        height: 250px;
+                      }
+                      .centerpicture{
+                        width: 370px;
+                        height: 250px;
+                      }
+
+                      .centerlocation1{
+                        background-color:transparent;
+                        width: 100%;
+                        height: 150px;
+                        margin-top: 20px;
+                        text-align: center;
+                      }
+                      .centermall1{
+                        color: red;
+                        font-size:13px;
+                        line-height: 2;
+                      }
+                      .centersaltmall1{
+                        font-family: 'futurak';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 29px;
+                        text-align: center;
+                       color: #FFFFFF;
+                      }
+              
+                      .centerlocation2{
+                        background-color: transparent;
+                        width: 174px;
+                        height: 35px;
+                        border: 1px solid;
+                        border-radius: 50px;
+                        margin-top: 20px;
+                        margin-left: 90px;
+                        font-size: 20px;
+                        font-weight: 500;
+                        padding-left: 15px;
+                        padding-top: 15px;
+                      }
+                      .centerarrowloc1{
+                        background-color: #fff;
+                        color: #dc3545;
+                        width: 27px;
+                        height: 27px;
+                        padding: 5px 8px;
+                        border-radius: 30px;
+                        margin-left: 10px;    
+                      }
+                        
+
+                      
+
+
+                       .cshort2{
+                        background-color:transparent;
+                        width: 370px;
+                        height: 500px;
+                       } 
+
+
+                              /* VILLAGE FRENCHIES */
+                
+                              .villagefrench{
+                                background-color:rgb(16, 15, 15);
+                                width: 100%;
+                                height: 150px;
+                                margin-top: 30px;
+                              }
+
+                              .villagesalt{
+                                font-family: Rockwell Extra Bold;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 65px;
+                                line-height: 62px;
+                                color: #FFFFFF;
+                               padding-left:450px ;
+                               
+                               
+                              }
+                              .villagesalt2{
+                                font-size: 50px;
+                                padding-left: 420px;
+                               
+                              } 
+
+               .villagediv{
+                background-color: rgb(16, 15, 15);
+                width: 100%;
+                height: 400px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+              } 
+              .svillage1{
+                background-color:transparent;
+                width: 50%;
+                height: 360px;
+              }
+              .villagepic{
+                width:635px;
+                height: 360px;
+              }
+
+              .svillage2{
+                background-color:transparent;
+                width: 47%;
+                height: 360px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+              }
+              .villagegujra{
+                background-color: transparent;
+                width: 100%;
+                height: 250px;
+              }
+              .villagemall{
+                color: red;
+                font-size:17px;
+                line-height: 2;
+                font-weight: 300;
+              }
+              .villagesaltmall1{
+                font-family: 'futurak';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 29px;
+                text-align: center;
+               color: #FFFFFF;
+              }
+
+              .villagelocation2{
+                background-color: rgb(0, 211, 0) ;
+                width: 174px;
+                height: 35px;
+                border: 1px solid;
+                border-radius: 50px;
+                margin-top: 20px;
+                margin-left: px;
+                font-size: 20px;
+                font-weight: 500;
+                padding-left: 15px;
+                padding-top: 15px;
+              }
+              .villagearrowloc1{
+                background-color: #fff;
+                color: #dc3545;
+                width: 27px;
+                height: 27px;
+                padding: 5px 8px;
+                border-radius: 30px;
+                margin-left: 10px;    
+              }
+
+             .villagelocation2:hover{
+              background-color: black;
+             }
+
+             /* opening */
+
+             .open{
+              background-color:black;
+              width: 100%;
+              height: 150px;
+              margin-top: 30px;
+              line-height: 1.5;
+            }
+
+            .ropen{
+              font-family:'futurak';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 65px;
+              line-height: 62px;
+              color: #FFFFFF;
+             padding-left:450px ;
+             
+            }
+            .ropen2{
+              font-size: 50px;
+              padding-left: 300px;
+             
+            }
+            .ropen3{
+              font-size: 30px;
+              padding-left: 20px;
+            }
+
+            .opendiv{
+              background-color: transparent;
+              width: 100%;
+              height: 800px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              align-items: center;
+            }
+                                          /* opendiv1 */
+            .opendiv1{
+              background-color: transparent;
+              width: 90%;
+              height: 230px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              
+            }
+            .sopendiv1{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+             
+            }
+
+            .vv1{
+              background-color: transparent;
+              width: 100%;
+              height: 60px;
+              display: flex;  
+              justify-content: center;
+              margin-top: 25px;
+              
+            }
+
+            .openingdiv1{
+              background-color: transparent;
+              width: 60px;
+              height: 60px;
+              
+              
+            }
+
+            .openingdiv2{
+              background-color: transparent;
+              width: 150px;
+              height: 15px;
+              margin-top: 20px;
+              margin-left: 90px;
+              font-size: 11px;
+              padding-left: 20px;
+              color:red;
+              font-weight: lighter;
+            }
+            .jalil{
+              font-family: 'futurak';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 29px;
+              text-align: center;
+             color: black;
+             padding-left: 70px;
+            }
+
+           
+
+            .sopendiv2{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+            }
+
+            .sopendiv3{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+            }
+                                         /* opendiv2 */
+            .opendiv2{
+              background-color: transparent;
+              width: 90%;
+              height: 230px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+            }
+            .sopendiv21{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+            }
+
+            .sopendiv22{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+            }
+
+            .sopendiv23{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+            }
+
+                                         /* opendiv3 */
+            .opendiv3{
+              background-color: transparent;
+              width: 90%;
+              height: 230px;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+            }
+              
+            .sopendiv31{
+              background-color: #fff;
+              width: 350px;
+              height: 100%;
+              border: 2px solid;
+              border-radius: 5px;
+            }
+
+            .social{
+              background-color: transparent;
+              width: 100%;
+              height: 50px;
+              text-align: center;
+              font-size: 35px;
+              color: #363636;
+              font-family: bold;
+            }
+
+            .items{
+              background-color: transparent;
+              width: 100%;
+              height:270px;
+              display: flex;
+              flex-direction: row;
+              justify-content:space-evenly ;
+            }
+              
+            .item1{
+              background-color: transparent;
+              width: 23%;
+              height: 90%;
+              margin-top: 15px;
+              margin-left:20px;
+            }
+              
+            .item2{
+              background-color: transparent;
+              width: 23%;
+              height: 90%;
+              margin-top: 15px;
+              }
+
+              .item3{
+                background-color: transparent;
+                width: 23%;
+                height: 90%;
+                margin-top: 15px;
+                }
+
+                .item4{
+                  background-color: transparent;
+                  width: 23%;
+                  height: 90%;
+                  margin-top: 15px;
+                  }
+                  .sample{
+                    background-color: transparent;
+                    width: 100%;
+                    height: 100px;
+                  }
+
+
+                  .lastdiv{
+                    background-color: black;
+                    width: 100%;
+                    height: 580px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                  }
+
+                  .lastdiv1{
+                    background-color: transparent;
+                    width: 400px;
+                    height: 90%;
+                  }
+
+                  .slast1{
+                    background-color: transparent;
+                    width: 150px;
+                    height:70px;
+                    margin-top: 60px;
+                    margin-left: 40px;
+                  }
+                  .slast11{
+                    background-color: transparent;
+                    width: 90%;
+                    height: 250px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    padding-top: 50px;
+                    font-size: 17px;
+                    color: #9aa8b1;
+
+                  }
+
+                  .lastdiv2{
+                    background-color: transparent;
+                    width: 200px;
+                    height: 90%;
+                  }
+                  .slast2{
+                    background-color: transparent;
+                    width: 80%;
+                    height: 80%;
+                    margin-left: 20px;
+                    margin-top: 50px;
+                  }
+
+                  .lastdiv3{
+                    background-color:transparent;
+                    width: 300px;
+                    height: 90%;
+                  }
+                  .slast3{
+                    background-color: transparent;
+                    width: 80%;
+                    height: 85%;
+                    margin-left: 20px;
+                    margin-top: 60px;
+                  }
+
+                  .lastdiv4{
+                    background-color:transparent;
+                    width: 300px;
+                    height: 90%;
+                    margin-top: 60px;
+                  }
+
+                  .fit{
+                    background-color: transparent;
+                    width: 45%;
+                    height: 50px;
+                    margin-left: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                  }
+
+                  .facebook{
+                    background-color: red;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    float: left;
+                  }
+                  .facebookicon{
+                   padding-left: 100px;
+                  }
+
+                  .instagram{
+                    background-color: red;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    float: left;
+                  }
+
+                  .twiter{
+                    background-color: red;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    float: left;
+                  }
+                  .icon{
+                    padding-left:12px;
+                    padding-top: 12px;
+                  }
+                  .slast4{
+                    background-color: transparent;
+                    width: 45%;
+                    height: 50px;
+                    margin-top: 30px;
+                    margin-left: 25px;
+                  }
+
+                  .slast41{
+                    background-color: transparent;
+                    width: 45%;
+                    height: 50px;
+                    margin-top: 15px;
+                    margin-left: 25px;
+                  }
+
+                  .finaldiv{
+                    background-color: transparent;
+                    width: 100%;
+                    height: 20px;
+                  }
+
+
+
+                  
